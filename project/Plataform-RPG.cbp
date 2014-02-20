@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Plataform RPG" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Components\;Components\BaseComponents\;src\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Plataform RPG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Plataform RPG" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++11" />
+			<Add option="-Wall" />
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="include/Component.h">
+			<Option virtualFolder="Components/BaseComponents/" />
+		</Unit>
+		<Unit filename="include/GameObject.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="include/Position.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="include/Renderer.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="include/ShaderRenderer.h">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="src/Component.cpp">
+			<Option virtualFolder="Components/BaseComponents/" />
+		</Unit>
+		<Unit filename="src/GameObject.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/Position.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="src/Renderer.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="src/ShaderRenderer.cpp">
+			<Option virtualFolder="Components/" />
+		</Unit>
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

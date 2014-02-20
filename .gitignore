@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# Project specific
+project/Plataform-RPG.depend
+project/Plataform-RPG.layout
+project/obj/

@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1392878914 source:c:\gust\program\svn\c++\plataform-rpg\project\src\component.cpp
+	"Component.h"
+
+1392878907 c:\gust\program\svn\c++\plataform-rpg\project\include\component.h
+	<string>
+
+1392881675 source:c:\gust\program\svn\c++\plataform-rpg\project\src\main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	"GameObject.h"
+	"Component.h"
+	"Renderer.h"
+	"ShaderRenderer.h"
+
+1391821987 source:c:\gust\program\svn\c++\plataform-rpg\project\src\rendercomponent.cpp
+	"RenderComponent.h"
+
+1391822048 c:\gust\program\svn\c++\plataform-rpg\project\include\rendercomponent.h
+	<Component.h>
+
+1392879053 source:c:\gust\program\svn\c++\plataform-rpg\project\src\gameobject.cpp
+	"GameObject.h"
+	<iostream>
+
+1392877874 c:\gust\program\svn\c++\plataform-rpg\project\include\gameobject.h
+	<vector>
+	"Component.h"
+
+1392877210 source:c:\gust\program\svn\c++\plataform-rpg\project\src\position.cpp
+	"Position.h"
+
+1392874329 c:\gust\program\svn\c++\plataform-rpg\project\include\position.h
+	<SFML/System/Vector2.hpp>
+	"Component.h"
+
+1392881449 c:\gust\program\svn\c++\plataform-rpg\project\include\renderer.h
+	"Component.h"
+	<SFML/Graphics/RectangleShape.hpp>
+
+1392878961 source:c:\gust\program\svn\c++\plataform-rpg\project\src\renderer.cpp
+	"Renderer.h"
+	<SFML/Graphics.hpp>
+	"GameObject.h"
+
+1392882823 source:c:\gust\program\svn\c++\plataform-rpg\project\src\shaderrenderer.cpp
+	"ShaderRenderer.h"
+	<iostream>
+	"GameObject.h"
+	<math.h>
+
+1392882842 c:\gust\program\svn\c++\plataform-rpg\project\include\shaderrenderer.h
+	"Renderer.h"
+	<SFML/Graphics.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Clock.hpp>
+
